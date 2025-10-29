@@ -1,0 +1,3 @@
+HOSTNAME,IPADDR,PORT,CREDFILE,BAT
+LHK2PFW01,172.16.10.254,8022,cred_lhk2.txt,putty_login_ssh.bat
+LHK2PFW02,172.16.10.2,8022,cred_lhk2.txt,putty_login_ssh.bat

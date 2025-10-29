@@ -1,0 +1,8 @@
+@echo off
+FOR %%A IN ("%~dp0.") DO SET ROOTDIR=%%~dpA
+SET CONFDIR=%ROOTDIR%\config
+SET IPADDR=172.16.11.54
+SET PORT=22
+SET CREDFILE=cred.txt
+
+%CONFDIR%\putty_login_ssh.bat %IPADDR% %PORT% %CREDFILE%

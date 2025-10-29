@@ -1,6 +1,0 @@
-@echo off
-SET IPADDR=172.31.210.11
-SET PORT=22
-SET CREDFILE=cred.txt
-
-putty_login.bat %IPADDR% %PORT% %CREDFILE%

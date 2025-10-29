@@ -1,0 +1,8 @@
+@echo off
+FOR %%A IN ("%~dp0.") DO SET ROOTDIR=%%~dpA
+SET CONFDIR=%ROOTDIR%\config
+SET IPADDR=172.16.11.11
+SET PORT=32771
+SET CREDFILE=cred.txt
+
+%CONFDIR%\putty_login_telnet.bat %IPADDR% %PORT% %CREDFILE%

@@ -1,5 +1,7 @@
 # kkyick2
-cred_empf_*.txt
+cred_*.txt
+empf*
+lhk2*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
