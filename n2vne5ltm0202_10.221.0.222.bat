@@ -1,6 +1,6 @@
 @echo off
-SET IPADDR=172.31.110.11
+SET IPADDR=10.221.0.222
 SET PORT=22
-SET CREDFILE=cred_empf_sw.txt
+SET CREDFILE=cred_empf_f5.txt
 
 putty_login_ssh.bat %IPADDR% %PORT% %CREDFILE%
